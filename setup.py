@@ -18,7 +18,7 @@ $ python3 -m twine upload --repository pypi dist/rdadccvt-x.y.z*.*
 
 setup(
     name="rdadccvt",
-    version="1.0.0",
+    version="1.0.1",
     description="Balzer's algorithm (DCCVT) to find a maximally population compact map",
     url="https://github.com/rdatools/rdadccvt",
     author="alecramsay",

@@ -7,7 +7,6 @@ from .balzerio import (
     write_redistricting_points,
 )
 from .helpers import *
-from .random_map import random_map
 from .balzer import (
     index_points_file,
     index_pairs_file,
