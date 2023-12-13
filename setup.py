@@ -12,23 +12,21 @@ $ python3 -m pip install --upgrade twine
 Each iteration:
 
 $ python3 -m build
-$ python3 -m twine upload --repository pypi dist/rdascore-x.y.z*.*
+$ python3 -m twine upload --repository pypi dist/rdadccvt-x.y.z*.*
 
 """
 
 setup(
-    name="rdascore",
-    version="2.0.5",
+    name="rdadccvt",
+    version="1.0.0",
     description="Balzer's algorithm (DCCVT) to find a maximally population compact map",
     url="https://github.com/rdatools/rdadccvt",
     author="alecramsay",
     author_email="a73cram5ay@gmail.com",
     license="MIT",
     packages=[
-        "rdascore",
+        "rdadccvt",
     ],
-    install_requires=[
-        "rdabase",
-    ],
+    install_requires=["rdabase", "scipy"],
     zip_safe=False,
 )
