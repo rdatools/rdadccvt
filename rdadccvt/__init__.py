@@ -5,6 +5,7 @@ from .balzerio import (
     read_redistricting_pairs,
     write_assignments,
     write_redistricting_points,
+    write_redistricting_assignments,
 )
 from .helpers import *
 from .balzer import (
