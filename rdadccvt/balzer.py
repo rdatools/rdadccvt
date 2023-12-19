@@ -204,6 +204,10 @@ def complete(
     *,
     verbose: bool = False,
 ) -> None:
+    """
+    NOTE - No longer used, because all precinct have at least epsilon population.
+    """
+
     assignments: List[IndexedWeightedAssignment] = read_assignments(assignname)
     adjacents = read_adjacencies(adjacentname)
     points = read_points(pointsname)
