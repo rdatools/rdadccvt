@@ -5,6 +5,8 @@ UNION FIND
 
 Copied from proebsting/dccvt.
 Todd Proebsting wrote this code.
+
+TODO - These are now in rdatools/rdabase. Rationalize the definitions.
 """
 
 from typing import Iterable, Set, List
