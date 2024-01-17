@@ -17,7 +17,7 @@ from .balzer import (
     balzer_go,
     mk_contiguous,
     consolidate,
-    # complete,
+    complete,
     postprocess,
     calc_energy_file,
     calc_population_deviation_file,
