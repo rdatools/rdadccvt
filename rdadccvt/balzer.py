@@ -20,6 +20,7 @@ from rdabase import (
     LatLong,
     Point,
     Assignment,
+    load_plan,
     IndexedPoint,
     Assignment,
     IndexedWeightedAssignment,
@@ -29,7 +30,6 @@ from rdabase import (
     calc_energy,
     calc_population_deviation,
 )
-from rdascore import load_plan
 
 from .union_find import StrUnionFind, IntUnionFind
 from .balzerio import (
