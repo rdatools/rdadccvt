@@ -22,7 +22,6 @@ from rdabase import (
     Assignment,
     load_plan,
     IndexedPoint,
-    Assignment,
     IndexedWeightedAssignment,
     index_points,
     index_pairs,
@@ -151,7 +150,9 @@ def balzer_go(
     balance_flag: str = f"--balance {balance_num}" if balance else ""
     threshold: int = 1000
 
-    command: str = f"{exe_path} --points {points} {adjacencies_flag} --initial {initial} --threshold {threshold} --output {output} {balance_flag}"
+    command: str = (
+        f"{exe_path} --points {points} {adjacencies_flag} --initial {initial} --threshold {threshold} --output {output} {balance_flag}"
+    )
     os.system(command)
 
     if not os.path.exists(output):
