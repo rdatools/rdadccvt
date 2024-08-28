@@ -19,4 +19,4 @@ $ python3 -m twine upload --repository pypi dist/rdadccvt-x.y.z*.*
 
 where x.y.z is the version number. For example:
 
-$ python3 -m twine upload --repository pypi dist/rdadccvt-1.3.0*.*
+$ python3 -m twine upload --repository pypi dist/rdadccvt-1.4.0*.*
