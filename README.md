@@ -7,7 +7,7 @@ Balzer's algorithm (DCCVT) to find a maximally population compact map
 To clone the repository:
 
 ```bash
-$ git clone https://github.com/alecramsay/rdadccvt
+$ git clone https://github.com/rdatools/rdadccvt
 $ cd rdadccvt
 ```
 
