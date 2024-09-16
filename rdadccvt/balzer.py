@@ -80,7 +80,7 @@ def index_pairs_file(
 def index_assignments_file(
     assignname: str,
     offset_by_geoid: Dict[str, int],
-    pop_by_geoid: Dict[str, int],
+    pop_by_geoid: Dict[str, float],
     output: str,
     *,
     verbose: bool = False,
